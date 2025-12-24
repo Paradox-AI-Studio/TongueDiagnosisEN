@@ -42,10 +42,16 @@ def login(form_data: Annotated[schemas.ExtendedOAuth2PasswordRequestForm, Depend
             message='operation failed',
             data=None
         )
-    else:
+    elif code == 102:
         response = schemas.LoginResponse(
             code=code,
             message='wrong password',
+            data=None
+        )
+    else :
+        response = schemas.LoginResponse(
+            code=code,
+            message='operation failed',
             data=None
         )
     return response
