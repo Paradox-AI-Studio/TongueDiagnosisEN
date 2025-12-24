@@ -1,5 +1,6 @@
 export const settings = {
     // ServerUrl: 'http://192.168.1.133:5000',
+    // ServerUrl: 'https://paradoxai.markyan04.cn',
     ServerUrl: 'http://10.252.133.135:5000'
 };
 
