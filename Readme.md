@@ -58,7 +58,7 @@
     APP_PORT: int = 5000
 ```
 #### Frontend Configuration
-- Modify `application/config/config.py` to set backend parameters:
+- Modify `frontend/src/config/config.js` to set frontend parameters:
   - ServerUrl: Backend server URL
 - Default configuration:
 ```javascript
